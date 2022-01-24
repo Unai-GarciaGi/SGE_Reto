@@ -1,0 +1,41 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="RetoSGE.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <br />
+            <asp:Table ID="Table1" runat="server">
+                <asp:TableRow runat="server">
+                    <asp:TableCell runat="server">
+                        <asp:Label ID="Label1" runat="server" Text="PROYECTO"></asp:Label></asp:TableCell>
+                    <asp:TableCell runat="server">
+                        <asp:Label ID="Label2" runat="server" Text=""></asp:Label></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow runat="server">
+                    <asp:TableCell runat="server">
+                        <asp:Menu ID="Menu1" runat="server"></asp:Menu>
+                    </asp:TableCell>
+                    <asp:TableCell runat="server"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow runat="server">
+                    <asp:TableCell runat="server"></asp:TableCell>
+                    <asp:TableCell runat="server"></asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
+            <br />
+            
+        </div>
+    </form>
+</body>
+</html>
