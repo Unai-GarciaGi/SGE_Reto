@@ -96,6 +96,7 @@
     <Content Include="Estilo.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="VerProductos.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.vb">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="VerProductos.aspx.designer.vb">
+      <DependentUpon>VerProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerProductos.aspx.vb">
+      <DependentUpon>VerProductos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

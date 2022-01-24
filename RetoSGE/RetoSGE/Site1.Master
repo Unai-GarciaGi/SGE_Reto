@@ -23,10 +23,12 @@
                 </asp:TableRow>
                 <asp:TableRow runat="server">
                     <asp:TableCell runat="server">
-                        <asp:Menu ID="Menu1" runat="server"></asp:Menu>
+                        <div id="Menu1">
+                            <asp:HyperLink ID="HyperLink1" runat="server">Ver Productos</asp:HyperLink><br />
+                            <asp:HyperLink ID="HyperLink2" runat="server">Añadir producto</asp:HyperLink>
+                        </div>
                     </asp:TableCell>
-                    <asp:TableCell runat="server"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder></asp:TableCell>
+                    <asp:TableCell runat="server"><br /><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow runat="server">
                     <asp:TableCell runat="server"></asp:TableCell>
