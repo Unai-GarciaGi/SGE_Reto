@@ -37,6 +37,42 @@ RetoSGE
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:RetoSGE.AddProducto._TextBox1">
+<summary>
+Control TextBox1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoSGE.AddProducto._TextBox2">
+<summary>
+Control TextBox2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoSGE.AddProducto._TextBox3">
+<summary>
+Control TextBox3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoSGE.AddProducto._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:RetoSGE.Site1._head">
 <summary>
 Control head.
@@ -82,9 +118,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:RetoSGE.Site1._Menu1">
+<member name="F:RetoSGE.Site1._HyperLink1">
 <summary>
-Control Menu1.
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoSGE.Site1._HyperLink2">
+<summary>
+Control HyperLink2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -103,6 +148,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:RetoSGE.WebForm1._Login1">
 <summary>
 Control Login1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoSGE.WebForm2._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoSGE.WebForm2._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
 </summary>
 <remarks>
 Campo generado automáticamente.

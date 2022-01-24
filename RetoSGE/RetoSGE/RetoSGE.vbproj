@@ -92,6 +92,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddProducto.aspx" />
     <Content Include="App_Data\Northwind.mdb" />
     <Content Include="Estilo.css" />
     <Content Include="Web.config" />
@@ -99,6 +100,13 @@
     <Content Include="VerProductos.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddProducto.aspx.designer.vb">
+      <DependentUpon>AddProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProducto.aspx.vb">
+      <DependentUpon>AddProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

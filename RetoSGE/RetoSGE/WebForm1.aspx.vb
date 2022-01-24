@@ -5,7 +5,8 @@ Public Class WebForm1
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Master.FindControl("Menu1").Visible = False
+        Master.FindControl("HyperLink1").Visible = False
+        Master.FindControl("HyperLink2").Visible = False
     End Sub
 
     Private Sub Login1_Authenticate(sender As Object, e As AuthenticateEventArgs) Handles Login1.Authenticate
