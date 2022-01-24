@@ -16,6 +16,9 @@ Public Class AddProducto
         Try
             conexion.Open()
             comando.ExecuteNonQuery()
+            TextBox1.Text = ""
+            TextBox2.Text = ""
+            TextBox3.Text = ""
         Catch ex As Exception
         Finally
             conexion.Close()

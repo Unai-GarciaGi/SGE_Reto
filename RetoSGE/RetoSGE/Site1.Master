@@ -26,6 +26,9 @@
                         <div>
                             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/VerProductos.aspx">Ver Productos</asp:HyperLink><br />
                             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AddProducto.aspx">Añadir producto</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/ModificarProducto.aspx">Modificar Producto</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/EliminarProducto.aspx">Eliminar Producto</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/OrderId.aspx">Order ID</asp:HyperLink>
                         </div>
                     </asp:TableCell>
                     <asp:TableCell runat="server"><br /><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></asp:TableCell>
