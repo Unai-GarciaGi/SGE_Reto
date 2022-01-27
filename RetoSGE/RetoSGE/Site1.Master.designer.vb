@@ -104,6 +104,15 @@ Partial Public Class Site1
     Protected WithEvents HyperLink8 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''Control HyperLink9.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents HyperLink9 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''Control ContentPlaceHolder1.
     '''</summary>
     '''<remarks>

@@ -106,6 +106,7 @@
     <Content Include="imagenes\Imagen04.jpg" />
     <Content Include="ModificarProducto.aspx" />
     <Content Include="OrderId.aspx" />
+    <Content Include="Orders.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="VerProductos.aspx" />
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="OrderId.aspx.vb">
       <DependentUpon>OrderId.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Orders.aspx.designer.vb">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.aspx.vb">
+      <DependentUpon>Orders.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.vb">
