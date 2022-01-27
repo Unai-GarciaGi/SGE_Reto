@@ -12,6 +12,7 @@ Public Class WebForm1
         Master.FindControl("HyperLink5").Visible = False
         Master.FindControl("HyperLink6").Visible = False
         Master.FindControl("HyperLink7").Visible = False
+        Master.FindControl("HyperLink8").Visible = False
     End Sub
 
     Private Sub Login1_Authenticate(sender As Object, e As AuthenticateEventArgs) Handles Login1.Authenticate
