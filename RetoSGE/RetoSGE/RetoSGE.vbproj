@@ -94,7 +94,10 @@
   <ItemGroup>
     <Content Include="AddProducto.aspx" />
     <Content Include="App_Data\Northwind.mdb" />
+    <Content Include="EliminarProducto.aspx" />
     <Content Include="Estilo.css" />
+    <Content Include="ModificarProducto.aspx" />
+    <Content Include="OrderId.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="VerProductos.aspx" />
@@ -105,6 +108,20 @@
     </Compile>
     <Compile Include="AddProducto.aspx.vb">
       <DependentUpon>AddProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EliminarProducto.aspx.designer.vb">
+      <DependentUpon>EliminarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarProducto.aspx.vb">
+      <DependentUpon>EliminarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ModificarProducto.aspx.designer.vb">
+      <DependentUpon>ModificarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarProducto.aspx.vb">
+      <DependentUpon>ModificarProducto.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -125,6 +142,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OrderId.aspx.designer.vb">
+      <DependentUpon>OrderId.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderId.aspx.vb">
+      <DependentUpon>OrderId.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.vb">
       <DependentUpon>Site1.Master</DependentUpon>
