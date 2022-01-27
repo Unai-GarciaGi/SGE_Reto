@@ -9,35 +9,52 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" href="Estilo.css">
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 320px;
+        }
+        .auto-style3 {
+            width: 320px;
+            height: 118px;
+        }
+        .auto-style4 {
+            height: 118px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <br />
-            <asp:Table ID="Table1" runat="server">
-                <asp:TableRow runat="server">
-                    <asp:TableCell runat="server">
-                        <asp:Label ID="Label1" runat="server" Text="PROYECTO"></asp:Label></asp:TableCell>
-                    <asp:TableCell runat="server">
-                        <asp:Label ID="Label2" runat="server" Text=""></asp:Label></asp:TableCell>
-                </asp:TableRow>
-                <asp:TableRow runat="server">
-                    <asp:TableCell runat="server">
-                        <div>
-                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/VerProductos.aspx">Ver Productos</asp:HyperLink><br />
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2">PROYECTO</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/VerProductos.aspx">Ver Productos</asp:HyperLink><br />
                             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AddProducto.aspx">Añadir producto</asp:HyperLink><br />
                             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/ModificarProducto.aspx">Modificar Producto</asp:HyperLink><br />
                             <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/EliminarProducto.aspx">Eliminar Producto</asp:HyperLink><br />
-                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/OrderId.aspx">Order ID</asp:HyperLink><br />
-                        </div>
-                    </asp:TableCell>
-                    <asp:TableCell runat="server"><br /><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></asp:TableCell>
-                </asp:TableRow>
-                <asp:TableRow runat="server">
-                    <asp:TableCell runat="server">Unai García</asp:TableCell>
-                    <asp:TableCell runat="server"></asp:TableCell>
-                </asp:TableRow>
-            </asp:Table>
+                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/OrderId.aspx">Order ID</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/CustomersFiltrar.aspx">Customers</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/EliminarCustomers.aspx">Borrar Customers</asp:HyperLink>
+                        <br /></td>
+                    <td class="auto-style4">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Unai García</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
             <br />
             
         </div>

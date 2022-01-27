@@ -46,6 +46,9 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -101,6 +104,8 @@
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="VerProductos.aspx" />
+    <Content Include="CustomersFiltrar.aspx" />
+    <Content Include="EliminarCustomers.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddProducto.aspx.designer.vb">
@@ -169,6 +174,20 @@
     </Compile>
     <Compile Include="VerProductos.aspx.vb">
       <DependentUpon>VerProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CustomersFiltrar.aspx.designer.vb">
+      <DependentUpon>CustomersFiltrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersFiltrar.aspx.vb">
+      <DependentUpon>CustomersFiltrar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EliminarCustomers.aspx.designer.vb">
+      <DependentUpon>EliminarCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarCustomers.aspx.vb">
+      <DependentUpon>EliminarCustomers.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
