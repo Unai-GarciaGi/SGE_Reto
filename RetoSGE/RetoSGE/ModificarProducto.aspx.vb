@@ -10,7 +10,7 @@ Public Class ModificarProducto
     Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
         Dim ConnectionString As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Northwind.mdb;Persist Security Info=True"
         Dim conexion As New OleDbConnection(ConnectionString)
-        Dim sentencia As String = "UPDATE Products SET ProductName = '" & txtName.Text & "', QuantityPerUnit = '" & txtQuantity.Text & "', UnitPrice = '" & txtPrice.Text & "' WHERE ProductID = '" & txtID.Text & "'"
+        Dim sentencia As String = "UPDATE Products SET ProductName = '" & txtName.Text & "', QuantityPerUnit = '" & txtQuantity.Text & "', UnitPrice = '" & txtPrice.Text & "' WHERE ProductID = " & Convert.ToInt32(txtID.Text)
         Dim dr As OleDbDataReader
         Dim comando As New OleDbCommand(sentencia, conexion)
         Try
