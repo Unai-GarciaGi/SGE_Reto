@@ -48,6 +48,10 @@
                         <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Amigos.aspx">Amigos</asp:HyperLink>
                         <br />
                         <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/Orders.aspx">Orders</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/CustomersColor.aspx">Customers Color</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/OrderDetailsSum.aspx">OrderDetailsSum</asp:HyperLink>
                         <br /></td>
                     <td class="auto-style4">
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

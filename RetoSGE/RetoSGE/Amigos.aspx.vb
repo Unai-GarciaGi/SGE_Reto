@@ -1,8 +1,11 @@
 ﻿Public Class WebForm5
     Inherits System.Web.UI.Page
 
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+    Private Sub WebForm5_PreRender(sender As Object, e As EventArgs) Handles Me.PreRender
+        If Me.GridView1.SelectedIndex >= 0 Then
+            Me.DetailsView1.Visible = True
+        Else
+            Me.DetailsView1.Visible = False
+        End If
     End Sub
-
 End Class

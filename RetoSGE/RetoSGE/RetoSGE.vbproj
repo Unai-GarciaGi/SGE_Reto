@@ -98,6 +98,7 @@
     <Content Include="AddProducto.aspx" />
     <Content Include="App_Data\Amigos.accdb" />
     <Content Include="App_Data\Northwind.mdb" />
+    <Content Include="CustomersColor.aspx" />
     <Content Include="EliminarProducto.aspx" />
     <Content Include="Estilo.css" />
     <Content Include="imagenes\Imagen01.jpg" />
@@ -120,6 +121,13 @@
     </Compile>
     <Compile Include="AddProducto.aspx.vb">
       <DependentUpon>AddProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CustomersColor.aspx.designer.vb">
+      <DependentUpon>CustomersColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersColor.aspx.vb">
+      <DependentUpon>CustomersColor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="EliminarProducto.aspx.designer.vb">
