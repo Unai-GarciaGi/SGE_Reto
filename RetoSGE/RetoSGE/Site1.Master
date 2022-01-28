@@ -32,7 +32,13 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2">PROYECTO</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" Height="60px" ImageUrl="~/imagenes/logo.png" Width="60px" />
+                        <audio id="audioMP3" src="~/music/amogus.mp3" controls autoplay="autoplay" runat="server">
+<p>Tu navegador no soporta musica</p>
+</audio>
+
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/VerProductos.aspx">Ver Productos</asp:HyperLink><br />

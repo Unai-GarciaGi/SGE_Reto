@@ -106,7 +106,9 @@
     <Content Include="imagenes\Imagen02.jpg" />
     <Content Include="imagenes\Imagen03.jpg" />
     <Content Include="imagenes\Imagen04.jpg" />
+    <Content Include="imagenes\logo.png" />
     <Content Include="ModificarProducto.aspx" />
+    <Content Include="music\amogus.mp3" />
     <Content Include="OrderDetailsSum.aspx" />
     <Content Include="OrderId.aspx" />
     <Content Include="Orders.aspx" />
