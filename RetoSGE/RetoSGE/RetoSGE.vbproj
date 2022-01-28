@@ -97,6 +97,7 @@
   <ItemGroup>
     <Content Include="AddProducto.aspx" />
     <Content Include="App_Data\Amigos.accdb" />
+    <Content Include="App_Data\amigos2122.accdb" />
     <Content Include="App_Data\Northwind.mdb" />
     <Content Include="CustomersColor.aspx" />
     <Content Include="EliminarProducto.aspx" />
@@ -106,6 +107,7 @@
     <Content Include="imagenes\Imagen03.jpg" />
     <Content Include="imagenes\Imagen04.jpg" />
     <Content Include="ModificarProducto.aspx" />
+    <Content Include="OrderDetailsSum.aspx" />
     <Content Include="OrderId.aspx" />
     <Content Include="Orders.aspx" />
     <Content Include="Web.config" />
@@ -162,6 +164,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OrderDetailsSum.aspx.designer.vb">
+      <DependentUpon>OrderDetailsSum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailsSum.aspx.vb">
+      <DependentUpon>OrderDetailsSum.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="OrderId.aspx.designer.vb">
       <DependentUpon>OrderId.aspx</DependentUpon>

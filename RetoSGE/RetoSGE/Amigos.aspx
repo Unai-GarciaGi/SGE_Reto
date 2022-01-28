@@ -13,12 +13,16 @@
             <asp:BoundField DataField="FechaNacimiento" DataFormatString="{0:d}" HeaderText="FechaNacimiento" SortExpression="FechaNacimiento" />
             <asp:CheckBoxField DataField="Carnet" HeaderText="Carnet" SortExpression="Carnet" />
             <asp:BoundField DataField="Cuota" DataFormatString="{0:f}" HeaderText="Cuota" SortExpression="Cuota" />
-            <asp:ImageField DataImageUrlField="Foto" DataImageUrlFormatString="~/imagenes/{0}" HeaderText="Foto">
+            <asp:ImageField DataImageUrlField="Foto" DataImageUrlFormatString="~/imagenes/{0}" HeaderText="Foto" ControlStyle-Height="250px">
             </asp:ImageField>
         </Columns>
     </asp:GridView>
 <br />
-<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:AmigosString %>" ProviderName="<%$ ConnectionStrings:AmigosString.ProviderName %>" SelectCommand="SELECT * FROM [Contactos_local]"></asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:AmigosString %>" ProviderName="<%$ ConnectionStrings:AmigosString.ProviderName %>" SelectCommand="SELECT * FROM [Contactos_local] WHERE ([Id] = ?)">
+    <SelectParameters>
+        <asp:ControlParameter ControlID="GridView1" Name="Id" PropertyName="SelectedValue" Type="Int32" />
+    </SelectParameters>
+    </asp:SqlDataSource>
 <br />
 <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="SqlDataSource2" Height="50px" Width="125px">
     <Fields>
